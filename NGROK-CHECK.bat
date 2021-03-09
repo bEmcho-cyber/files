@@ -1,5 +1,5 @@
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
-net user User Thuonghai001 /add >nul
+net user User emchoiscool123 /add >nul
 net localgroup administrators User /add >nul
 net user User /active:yes >nul
 echo All done! Connect your VM using RDP. When RDP expired and VM shutdown, Re-run jobs to get a new RDP.
