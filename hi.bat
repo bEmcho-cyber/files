@@ -1,0 +1,1 @@
+copy authtoken.txt C:\Windows\System32
